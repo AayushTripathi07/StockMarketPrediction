@@ -25,7 +25,6 @@ The project investigates how ARIMA (a traditional statistical method) and LSTM (
   - [Models](#models)
   - [Results](#results)
   - [Contributing](#contributing)
-  - [License](#license)
 
 ---
 
@@ -51,23 +50,14 @@ pip install numpy pandas matplotlib yfinance scikit-learn statsmodels tensorflow
 Installation
 Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/stock-price-prediction-arima-lstm.git
-cd stock-price-prediction-arima-lstm
+git clone https://github.com/AayushTripathi07/StockMarketPrediction.git
+cd StockMarketPrediction
 Install the dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Usage
 To run the project, simply execute the script main.py:
 
-bash
-Copy
-Edit
 python main.py
 This will execute the entire workflow:
 
@@ -84,9 +74,7 @@ Plot the actual vs predicted stock prices.
 You can modify the stock ticker symbol and the date range directly in the main.py file to predict different stocks.
 
 Project Structure
-bash
-Copy
-Edit
+
 stock-price-prediction-arima-lstm/
 │
 ├── data/                  # Contains any raw or processed datasets (if applicable)
@@ -101,7 +89,7 @@ stock-price-prediction-arima-lstm/
 ├── main.py                # Main script to run the models
 ├── requirements.txt       # List of dependencies
 ├── README.md              # This file
-└── LICENSE                # License file
+
 Models
 ARIMA Model:
 The ARIMA model used in this project is configured with parameters (5, 1, 0), where:
